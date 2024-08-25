@@ -140,7 +140,7 @@ if _G.Switch_Hub_Series_R then
 					for a, b in pairs(getconnections(game:GetService("UserInputService").TouchTapInWorld)) do
 						b:Fire() 
 					end
-					v.Function()
+		                    
 				end 
 			end
 		until game.Players.LocalPlayer.Team ~= nil and game:IsLoaded()
