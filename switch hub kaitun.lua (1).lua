@@ -140,9 +140,6 @@ if _G.Switch_Hub_Series_R then
 					for a, b in pairs(getconnections(game:GetService("UserInputService").TouchTapInWorld)) do
 						b:Fire() 
 					end
-		                    
-				end 
-			end
 		until game.Players.LocalPlayer.Team ~= nil and game:IsLoaded()
 	end
 	task.spawn(function() loadstring(game:HttpGet('https://raw.githubusercontent.com/hermanos-dev/hermanos-script/main/middle.lua'))() end)
